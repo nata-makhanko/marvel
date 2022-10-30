@@ -15,6 +15,9 @@
         width: 170px;
         margin: 45px auto 0 auto;
     }
+    &:disabled {
+        filter: grayscale(.5);
+    }
     .inner {
         position: relative;
         background-color: $main-color;
